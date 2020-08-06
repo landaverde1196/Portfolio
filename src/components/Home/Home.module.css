@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;800&display=swap");
+
+.Home {
+  width: 100vw;
+  margin: auto;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(15, 8, 8, 0.856) 25%, transparent),
+    url("../../assets/images/clement-h-95YRwf6CNw8-unsplash.jpg") center / cover
+      no-repeat border-box,
+    #ff1b68;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .Me {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* .Me img {
+  width: 50%;
+} */
+
+.Title {
+  text-align: center;
+  color: #f7fbfc;
+  font-family: "Roboto Slab", sans-serif;
+  position: absolute;
+  top: 12rem;
+}
+
+.Title h1 {
+  font-size: 4rem;
+}
+
+.Title h2 {
+  font-size: 1.8rem;
+}
+
+.Title p {
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.Button {
+  background: rgb(245, 244, 247);
+  color: black;
+  font: inherit;
+  border: 1.5px solid black;
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Button:hover,
+.Button:active {
+  color: white;
+  background: black;
+}
+
+.Button:focus {
+  outline: none;
+}

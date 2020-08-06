@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;800&display=swap");
+
+.Projects {
+  width: 100vw;
+  /* margin: auto; */
+  height: 100vh;
+  /* background: url("../../assets/images/luis-lara-16RvIF_2McA-unsplash.jpg")
+    center/cover border-box; */
+  background: linear-gradient(to bottom, rgba(15, 8, 8, 0.876) 50%, transparent),
+    url("../../assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg") center /
+      cover no-repeat border-box,
+    #ff1b68;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Content {
+  position: absolute;
+  top: 5rem;
+}
+
+.Title {
+  color: #e4f0f1;
+  text-align: center;
+  font-family: "Roboto Slab", sans-serif;
+  width: 100%;
+  /* display: flex; */
+  /* position: absolute;
+  top: 12rem;
+  left: 2rem;
+  width: 50%; */
+}

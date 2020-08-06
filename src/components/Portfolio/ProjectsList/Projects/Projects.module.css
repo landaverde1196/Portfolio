@@ -1,0 +1,63 @@
+.List {
+  margin: 0 1rem;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* height: 100%; */
+  /* width: auto; */
+  /* align-items: center; */
+  /* box-sizing: border-box; */
+}
+
+.MyProjects {
+  /* box-sizing: border-box; */
+  width: 320px;
+  height: 440px;
+  /* margin: 20px auto; */
+  border: 1px solid #aaa;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  transition: background-color 400ms ease-out;
+  cursor: pointer;
+  /* position: absolute; */
+  /* top: 10rem;
+  left: 10rem; */
+  color: #e4f0f1;
+  box-sizing: border-box;
+}
+
+.MyProjects:hover,
+.MyProjects:active {
+  background-color: #fa923f;
+  color: black;
+}
+
+.Thumbnail {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.Image {
+  width: 100%;
+  padding: 0;
+}
+
+.Content {
+  text-align: center;
+}
+
+.Content h1 {
+  margin: 10px 0;
+}
+
+.Content a {
+  text-decoration: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.Content a:hover,
+.Content a:active {
+  color: black;
+}

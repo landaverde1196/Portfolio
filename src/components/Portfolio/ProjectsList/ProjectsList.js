@@ -21,6 +21,7 @@ const ProjectsList = (props) => (
       alt="Ravenous"
       name="Ravenous"
       description="Search restaurants around the world!"
+      app="https://munchiessss.web.app/"
       code="https://github.com/landaverde1196/Ravenous"
     />
     <Projects
@@ -28,6 +29,7 @@ const ProjectsList = (props) => (
       alt="BurgerBuilder"
       name="Jamming"
       description="Faster way of making a playlist in Spotify!"
+      noApp={false}
       code="https://github.com/landaverde1196/jamming"
     />
     {/* <Projects

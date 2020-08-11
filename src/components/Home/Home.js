@@ -11,7 +11,7 @@ const Home = (props) => {
       <div className={classes.Title}>
         <h1>Hi, I'm Alejandro</h1>
         <h2>
-          I'm a Web Developer who focuses on writing clean code &
+          I'm a Software Developer who focuses on writing clean code &
           user-friendly experiences. <br />
           I'm a passionate Developer but more importantly I'm passionate about
           technology.

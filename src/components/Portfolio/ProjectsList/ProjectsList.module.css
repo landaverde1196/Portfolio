@@ -3,8 +3,24 @@
   padding: 0;
   list-style: none;
   display: flex;
+  flex-direction: column;
   position: relative;
-  top: 3rem;
-  /* align-items: center; */
-  /* box-sizing: border-box; */
+  top: 1rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+@media (min-width: 40rem) {
+  .List {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 2rem;
+    margin: 0;
+    /* align-items: center; */
+    box-sizing: border-box;
+  }
 }

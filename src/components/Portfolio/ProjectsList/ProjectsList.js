@@ -3,7 +3,7 @@ import classes from "./ProjectsList.module.css";
 
 import Projects from "./Projects/Projects";
 import Burger from "../../../assets/images/Burger.JPG";
-import Ravenous from "../../../assets/images/Ravenous.png";
+import Munchies from "../../../assets/images/munchiessss.png";
 import Jamming from "../../../assets/images/Jamming.png";
 
 const ProjectsList = (props) => (
@@ -17,9 +17,9 @@ const ProjectsList = (props) => (
       code="https://github.com/landaverde1196/Burger-Builder"
     />
     <Projects
-      picture={Ravenous}
-      alt="Ravenous"
-      name="Ravenous"
+      picture={Munchies}
+      alt="Munchies"
+      name="Munchies"
       description="Search restaurants around the world!"
       app="https://munchiessss.web.app/"
       code="https://github.com/landaverde1196/Ravenous"

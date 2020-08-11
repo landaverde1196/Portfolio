@@ -1,9 +1,9 @@
 .Background {
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   background: linear-gradient(
       to bottom,
-      rgba(24, 21, 21, 0.65) 40%,
+      rgba(24, 21, 21, 0.803) 40%,
       transparent
     ),
     url("../../assets/images/safar-safarov-MSN8TFhJ0is-unsplash.jpg")
@@ -16,13 +16,14 @@
   flex-direction: column;
   text-align: center;
   position: absolute;
-  top: 8rem;
-  width: 100vw;
+  top: 4rem;
   color: white;
+  margin: 0 1rem;
 }
 
 .Content h1 {
   font-size: 2.5rem;
+  color: tomato;
 }
 
 .Content a {
@@ -36,5 +37,48 @@
 }
 
 .Code {
-  color: #cecdd1;
+  color: tomato;
+}
+
+@media (min-width: 40rem) {
+  .Background {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        to bottom,
+        rgba(24, 21, 21, 0.803) 40%,
+        transparent
+      ),
+      url("../../assets/images/safar-safarov-MSN8TFhJ0is-unsplash.jpg")
+        center/cover no-repeat border-box,
+      #ff1b68;
+  }
+
+  .Content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 8rem;
+    width: 100vw;
+    color: white;
+  }
+
+  .Content h1 {
+    font-size: 2.5rem;
+  }
+
+  .Content a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .Content a:hover,
+  .Content a:active {
+    color: tomato;
+  }
+
+  .Code {
+    color: #cecdd1;
+  }
 }

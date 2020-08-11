@@ -1,11 +1,9 @@
 .List {
-  margin: 0 1rem;
-  /* display: flex; */
-  /* justify-content: space-between; */
+  margin: 1rem 0;
   /* height: 100%; */
   /* width: auto; */
   /* align-items: center; */
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 .MyProjects {
@@ -64,4 +62,26 @@
 .Content a:hover,
 .Content a:active {
   color: black;
+}
+
+@media (min-width: 40rem) {
+  .List {
+    margin: 0 1rem;
+  }
+
+  .MyProjects {
+    /* box-sizing: border-box; */
+    width: 320px;
+    height: 440px;
+    /* margin: 20px auto; */
+    border: 1px solid #aaa;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 400ms ease-out;
+    cursor: pointer;
+    /* position: absolute; */
+    /* top: 10rem;
+    left: 10rem; */
+    color: #e4f0f1;
+    box-sizing: border-box;
+  }
 }

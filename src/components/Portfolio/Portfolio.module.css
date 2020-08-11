@@ -1,33 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;800&display=swap");
 
-.Projects {
-  width: 100vw;
-  /* margin: auto; */
-  height: 100vh;
-  /* background: url("../../assets/images/luis-lara-16RvIF_2McA-unsplash.jpg")
-    center/cover border-box; */
-  background: linear-gradient(to bottom, rgba(15, 8, 8, 0.876) 50%, transparent),
+/* * {
+  box-sizing: border-box;
+} */
+
+.Portfolio {
+  background: linear-gradient(to bottom, rgba(15, 8, 8, 0.876) 85%, transparent),
     url("../../assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg") center /
       cover no-repeat border-box,
     #ff1b68;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100%;
 }
 
 .Content {
-  position: absolute;
-  top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
 }
 
 .Title {
   color: #e4f0f1;
   text-align: center;
   font-family: "Roboto Slab", sans-serif;
-  width: 100%;
-  /* display: flex; */
-  /* position: absolute;
-  top: 12rem;
-  left: 2rem;
-  width: 50%; */
+}
+
+@media (min-width: 40rem) {
+  .Portfolio {
+    /* width: 100vw; */
+    margin: auto;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(15, 8, 8, 0.856) 45%,
+        transparent
+      ),
+      url("../../assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg") center /
+        cover no-repeat border-box,
+      #ff1b68;
+  }
+
+  .Content {
+    position: absolute;
+    top: 3rem;
+    left: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Title {
+    color: #e4f0f1;
+    text-align: center;
+    font-family: "Roboto Slab", sans-serif;
+  }
 }

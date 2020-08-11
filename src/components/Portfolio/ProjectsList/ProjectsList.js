@@ -20,7 +20,7 @@ const ProjectsList = (props) => (
       picture={Munchies}
       alt="Munchies"
       name="Munchies"
-      description="Search restaurants around the world!"
+      description="Search food around the world!"
       app="https://munchiessss.web.app/"
       code="https://github.com/landaverde1196/Ravenous"
     />

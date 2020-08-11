@@ -30,7 +30,7 @@ const About = (props) => (
 
       <div className={classes.Experience}>
         <h1>EXPERIENCE</h1>
-        <h2>Travel Agent (Jun-2017 to Dec-2019)</h2>
+        <h2>Travel Agent (Jun-2017 to Jun-2019)</h2>
         <p>
           I worked as a travel agent in a Travel Agency named Hossana Travel
           that is located in San Pedro Sula, Honduras. <br /> My job was to sell

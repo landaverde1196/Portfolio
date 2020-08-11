@@ -1,22 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;800&display=swap");
 
-/* * {
-  box-sizing: border-box;
-} */
-
 .Portfolio {
   background: linear-gradient(to bottom, rgba(15, 8, 8, 0.876) 85%, transparent),
     url("../../assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg") center /
       cover no-repeat border-box,
     #ff1b68;
   height: 100%;
+  overflow: hidden;
 }
 
 .Content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
+  display: block;
 }
 
 .Title {
@@ -27,12 +21,10 @@
 
 @media (min-width: 40rem) {
   .Portfolio {
-    /* width: 100vw; */
-    margin: auto;
     height: 100vh;
     background: linear-gradient(
         to bottom,
-        rgba(15, 8, 8, 0.856) 45%,
+        rgba(15, 8, 8, 0.856) 65%,
         transparent
       ),
       url("../../assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg") center /
@@ -41,17 +33,12 @@
   }
 
   .Content {
-    position: absolute;
-    top: 3rem;
-    left: 18rem;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-
-  .Title {
-    color: #e4f0f1;
-    text-align: center;
-    font-family: "Roboto Slab", sans-serif;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow: hidden;
   }
 }

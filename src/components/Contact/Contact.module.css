@@ -1,6 +1,6 @@
 .Background {
   height: 100vh;
-  /* width: 100vw; */
+  width: 100vw;
   background: linear-gradient(
       to bottom,
       rgba(24, 21, 21, 0.803) 40%,
@@ -12,8 +12,8 @@
 }
 
 .Content {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   text-align: center;
   position: absolute;
   top: 4rem;
@@ -46,7 +46,7 @@
     width: 100vw;
     background: linear-gradient(
         to bottom,
-        rgba(24, 21, 21, 0.803) 40%,
+        rgba(24, 21, 21, 0.803) 50%,
         transparent
       ),
       url("../../assets/images/safar-safarov-MSN8TFhJ0is-unsplash.jpg")
@@ -58,9 +58,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    position: absolute;
-    top: 8rem;
-    width: 100vw;
+    align-content: center;
+    width: 100%;
     color: white;
   }
 

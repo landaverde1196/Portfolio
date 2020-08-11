@@ -1,6 +1,6 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 .Background {
   height: 100%;
@@ -12,13 +12,10 @@
     url("../../assets/images/james-harrison-vpOeXr5wmR4-unsplash.jpg") center /
       cover no-repeat border-box,
     #ff1b68;
-  /* display: flex;
-  flex-direction: column; */
+  overflow: hidden;
 }
 
 .Content {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   color: white;
   margin: 0 1.3rem;
@@ -46,13 +43,12 @@
 }
 
 .Experience {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 @media (min-width: 40rem) {
   .Background {
-    /* margin: auto; */
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     background: linear-gradient(
         to bottom,
@@ -62,19 +58,18 @@
       url("../../assets/images/james-harrison-vpOeXr5wmR4-unsplash.jpg") center /
         cover no-repeat border-box,
       #ff1b68;
-    /* display: flex;
-    flex-direction: column; */
+    overflow: hidden;
   }
 
   .Content {
-    /* display: flex;
+    margin: 0 5rem;
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
-    color: white; */
-    position: absolute;
-    top: 5rem;
-    left: 5rem;
-    right: 5rem;
+    color: white;
+    /* width: 100%; */
+    align-content: center;
   }
 
   .Content h1 {
@@ -98,7 +93,6 @@
   }
 
   .Experience {
-    /* margin-top: 5rem; */
-    /* top: 5rem; */
+    margin: 0;
   }
 }
